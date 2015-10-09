@@ -1,0 +1,18 @@
+class Person:
+
+	name = ""
+	age = 0
+
+	def setName(n):
+		name = n		
+	
+
+	def setAge(a):
+		age = a	
+	
+
+	def outputPerson():
+		print "Name: {0} Age: {1}".format(name, age)	
+	
+
+

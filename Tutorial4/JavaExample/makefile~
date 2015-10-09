@@ -1,0 +1,9 @@
+prepare:
+	javac World/Person.java
+	javac World/Community.java
+
+run: 	Community.class, Person.class
+	java World.Community
+
+clean: 	
+	rm -f World/*.class
